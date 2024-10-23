@@ -10,12 +10,10 @@ export default function HomePage() {
   const { locale } = useRouter();
   const imagePath = `/assets/imgs/white_logo.png`;
 
-  const stieName = "الراوي";
+  const stieName = "Al Rawi";
   const siteURL = "https://al-rawi.vercel.app";
 
-  const SiteDescription = `أهلًا وسهلًا..
-أنا الراوي الافتراضي محمد، يسعدني أن أتحدث هنا عن قصور التابعي الجليل عروة بن الزبير، لنتعرف سويًا على أسرارها وتاريخها العريق فهي تعد من أبرز المعالم السياحية في المدينة، ونتيجة للجهود التي بذلتها وتبذلها هيئة التراث لتأهيلها لاستقبال الزوار، فقد أصبح بإمكان محبي التراث والتاريخ زيارتها طوال أيام الأسبوع
-`;
+  const SiteDescription = `Welcome.. I am the virtual narrator Muhammad, I am pleased to talk here about the palaces of the great follower Urwa bin Al-Zubayr, to get to know together its secrets and its ancient history, as it is one of the most prominent tourist attractions in the city, and as a result of the efforts made and being made by the Heritage Commission to prepare it to receive visitors, it has become possible for lovers of heritage and history to visit it throughout the week`;
 
   return (
     <>
